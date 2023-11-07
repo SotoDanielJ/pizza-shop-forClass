@@ -18,13 +18,13 @@ public class PizzaMenuController {
     public String getMenuItem(@PathVariable long id, Model model){
         model.addAttribute("pizzaMenuItem", pizzaMenuService.getMenu(id));
         model.addAttribute("pizzaTitle", "This is a pizza menu");
-        return "displayMenu";
+        return "menus/displayMenu";
     }
     
      @GetMapping("/PizzaMenu")
     public String getAllMenuItem(Model model){
         model.addAttribute("pizzaMenuItems", pizzaMenuService.listMenus());
-        return "displayAllMenus";
+        return "menus/displayAllMenus";
     }
 
 }

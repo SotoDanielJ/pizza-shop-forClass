@@ -16,6 +16,12 @@ public class StaffMemberDto {
         this.role = role;
         this.shift = shift;
     }
+     public StaffMemberDto(StaffMemberModel staff) {
+         this.id = staff.getId();
+        this.name = staff.getName();
+        this.role = staff.getRole();
+        this.shift = staff.getShift();
+    }
   public StaffMemberModel convertToStaff() {
         StaffMemberModel staff = new StaffMemberModel(this.getName(),
         this.role,
