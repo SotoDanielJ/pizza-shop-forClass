@@ -1,4 +1,4 @@
-package org.wecancodeit.pizzashop.Dto;
+package org.wecancodeit.pizzashop.dto;
 
 import org.wecancodeit.pizzashop.models.PizzaMenuModel;
 
