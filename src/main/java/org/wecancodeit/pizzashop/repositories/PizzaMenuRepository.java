@@ -9,6 +9,9 @@ import java.util.Map;
 import org.wecancodeit.pizzashop.Dto.PizzaMenuDto;
 import org.wecancodeit.pizzashop.models.PizzaMenuModel;
 
+/**
+ * This class is used to update the data in the repository
+ */
 public class PizzaMenuRepository {
    
     private Map<Long,PizzaMenuModel> table = new HashMap<>();
