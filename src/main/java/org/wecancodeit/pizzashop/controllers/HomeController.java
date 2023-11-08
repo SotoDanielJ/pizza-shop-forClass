@@ -5,9 +5,9 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
+
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+
 import org.wecancodeit.pizzashop.dto.LoginDto;
 import org.wecancodeit.pizzashop.services.LoginService;
 
@@ -16,30 +16,27 @@ public class HomeController {
 
     private LoginService loginService;
 
-    
-
     public HomeController(LoginService loginService) {
         this.loginService = loginService;
     }
 
-
-    @RequestMapping({"/","","/home"})
-    public String home(){
+    @RequestMapping({ "/", "", "/home" })
+    public String home() {
         return "home/helloWorld";
 
     }
+
     @GetMapping("/login")
     public String showLogin(Model model) {
         model.addAttribute("loginDto", new LoginDto());
         return "home/login";
     }
 
-    @PostMapping("/login" )
+    @PostMapping("/login")
     public String loginMethod(@ModelAttribute LoginDto dto) {
-        if(loginService.loginUser(dto))
-        {
+        if (loginService.loginUser(dto)) {
             return "redirect:/PizzaMenu";
         }
-         return "redirect:/home";
+        return "redirect:/home";
     }
 }

@@ -44,11 +44,11 @@ public class Populator implements CommandLineRunner {
         pizzaMenuService.createMenu(dto);
 
         // Add staff
-        StaffMemberDto staff = new StaffMemberDto(1, "Dug", "Driver", "Night");
+        StaffMemberDto staff = new StaffMemberDto(1, "Dug", "Driver", "Night","dug","password");
         staffMemberService.createMenu(staff);
-        staff = new StaffMemberDto(1, "Peter", "Bus Boy", "Night");
+        staff = new StaffMemberDto(1, "Peter", "Bus Boy", "Night","petter","password");
         staffMemberService.createMenu(staff);
-        staff = new StaffMemberDto(1, "John", "Waiter", "Night");
+        staff = new StaffMemberDto(1, "John", "Waiter", "Night","john","password");
         staffMemberService.createMenu(staff);
     }
 
