@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 
-import org.wecancodeit.pizzashop.dto.StaffMemberDto;
+import org.wecancodeit.pizzashop.Dto.StaffMemberDto;
 import org.wecancodeit.pizzashop.models.StaffMemberModel;
 
 public class StaffMemberRepository {

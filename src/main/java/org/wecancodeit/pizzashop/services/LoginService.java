@@ -1,9 +1,8 @@
 package org.wecancodeit.pizzashop.services;
 
 import org.springframework.stereotype.Service;
-import org.wecancodeit.pizzashop.dto.LoginDto;
-import org.wecancodeit.pizzashop.dto.StaffMemberDto;
-import org.wecancodeit.pizzashop.models.StaffMemberModel;
+import org.wecancodeit.pizzashop.Dto.LoginDto;
+import org.wecancodeit.pizzashop.Dto.StaffMemberDto;
 import org.wecancodeit.pizzashop.repositories.StaffMemberRepository;
 
 @Service

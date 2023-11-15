@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import org.wecancodeit.pizzashop.dto.LoginDto;
+import org.wecancodeit.pizzashop.Dto.LoginDto;
 import org.wecancodeit.pizzashop.services.LoginService;
 
 @Controller

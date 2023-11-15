@@ -1,6 +1,5 @@
-package org.wecancodeit.pizzashop.dto;
+package org.wecancodeit.pizzashop.Dto;
 
-import org.wecancodeit.pizzashop.models.PizzaMenuModel;
 import org.wecancodeit.pizzashop.models.StaffMemberModel;
 
 public class StaffMemberDto extends LoginDto{

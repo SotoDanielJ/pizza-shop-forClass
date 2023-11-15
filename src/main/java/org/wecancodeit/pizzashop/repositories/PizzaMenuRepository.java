@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.wecancodeit.pizzashop.dto.PizzaMenuDto;
+import org.wecancodeit.pizzashop.Dto.PizzaMenuDto;
 import org.wecancodeit.pizzashop.models.PizzaMenuModel;
 
 /**

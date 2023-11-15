@@ -2,8 +2,8 @@ package org.wecancodeit.pizzashop;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
-import org.wecancodeit.pizzashop.dto.PizzaMenuDto;
-import org.wecancodeit.pizzashop.dto.StaffMemberDto;
+import org.wecancodeit.pizzashop.Dto.PizzaMenuDto;
+import org.wecancodeit.pizzashop.Dto.StaffMemberDto;
 import org.wecancodeit.pizzashop.services.PizzaMenuService;
 import org.wecancodeit.pizzashop.services.StaffMemberService;
 

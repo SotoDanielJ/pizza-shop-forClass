@@ -1,4 +1,4 @@
-package org.wecancodeit.pizzashop.dto;
+package org.wecancodeit.pizzashop.Dto;
 
 public class LoginDto {
     private String userId;

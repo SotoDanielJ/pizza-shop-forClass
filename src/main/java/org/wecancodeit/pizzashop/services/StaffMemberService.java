@@ -4,7 +4,7 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import org.wecancodeit.pizzashop.dto.StaffMemberDto;
+import org.wecancodeit.pizzashop.Dto.StaffMemberDto;
 import org.wecancodeit.pizzashop.models.StaffMemberModel;
 import org.wecancodeit.pizzashop.repositories.StaffMemberRepository;
 

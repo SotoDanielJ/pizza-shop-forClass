@@ -1,9 +1,9 @@
-package org.wecancodeit.pizzashop.dto;
+package org.wecancodeit.pizzashop.Dto;
 
 import org.wecancodeit.pizzashop.models.PizzaMenuModel;
 
 /**
- * Data object to transfre data back and forth to the UI
+ * Data object to transfer data back and forth to the UI
  */
 public class PizzaMenuDto {
     private long id;

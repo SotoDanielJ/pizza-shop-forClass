@@ -3,11 +3,9 @@ package org.wecancodeit.pizzashop.services;
 import java.util.List;
 
 import org.springframework.stereotype.Service;
-import org.wecancodeit.pizzashop.dto.PizzaMenuDto;
+import org.wecancodeit.pizzashop.Dto.PizzaMenuDto;
 import org.wecancodeit.pizzashop.models.PizzaMenuModel;
 import org.wecancodeit.pizzashop.repositories.PizzaMenuRepository;
-
-import jakarta.annotation.Resource;
 
 @Service
 public class PizzaMenuService {
